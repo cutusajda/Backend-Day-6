@@ -105,6 +105,7 @@ app.patch("/api/notes/:id",async (req,res)=>{
 
     res.status(200).json({
         message:"note updated sucessfully ",
+        
     })
 
 
